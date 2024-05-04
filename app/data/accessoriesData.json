@@ -1,0 +1,261 @@
+{
+    "accessories": [
+        {
+            "id": "acc001",
+            "name": "Stratocaster Leather Guitar Strap",
+            "category": "Guitar Accessories",
+            "price": 49.99,
+            "description": "Enhance your playing experience with the Stratocaster Leather Guitar Strap. Crafted from high-quality leather, this strap offers both style and durability. Its sleek design complements the iconic look of the Fender Stratocaster, while providing comfort during long gigs or practice sessions.",
+            "specifications": {
+                "material": "Genuine Leather",
+                "lengthAdjustment": "Adjustable from 44 inches to 60 inches",
+                "width": "2.5 inches",
+                "color": "Black"
+            },
+            "images": [
+                "https://www.stars-music.com/medias/fender/cropped-vintage-deluxe-leather-strap-natural-59590.jpeg",
+                "https://example.com/images/fender-stratocaster-back.jpg"
+            ],
+            "stock": 10,
+            "rating": 4.5
+        },
+        {
+            "id": "acc002",
+            "name": "Stratocaster Vintage Tweed Guitar Case",
+            "category": "Guitar Accessories",
+            "price": 129.99,
+            "description": "Protect your beloved Fender Stratocaster with the Vintage Tweed Guitar Case. Inspired by classic designs, this case features a durable tweed exterior and plush interior padding to safeguard your instrument from scratches, dings, and other damage. With its vintage aesthetic and sturdy construction, this case is the perfect companion for gigging musicians and collectors alike.",
+            "specifications": {
+                "material": "Tweed Fabric",
+                "interiorPadding": "Plush",
+                "closureType": "Zipper",
+                "compatibility": "Fits most standard-sized Stratocaster guitars"
+            },
+            "images": [
+                "https://media.sweetwater.com/m/products/image/a1170b3eb2PWYAbgT6eKuKumnUmMVWnFfOML1dJ2.jpg?quality=82&ha=a1170b3eb25eff7b",
+                "https://example.com/images/gibson-les-paul-back.jpg"
+            ],
+            "stock": 5,
+            "rating": 4.8
+        },
+        {
+            "id": "acc003",
+            "name": "Stratocaster Celluloid Guitar Picks (12-Pack)",
+            "category": "Guitar Accessories",
+            "price": 5.99,
+            "description": "Get a smooth and precise feel with the Stratocaster Celluloid Guitar Picks. This pack of 12 picks offers versatility and durability for all playing styles. Made from high-quality celluloid material, these picks deliver excellent tone and responsiveness. Whether you're strumming chords or shredding solos, these picks are a must-have for any guitarist.",
+            "specifications": {
+                "material": "Celluloid",
+                "thickness": "Medium (0.71mm)",
+                "shape": "Standard 351 shape",
+                "color": "Assorted colors"
+            },
+            "images": [
+                "https://m.media-amazon.com/images/I/41DGZ+ZD-BL._AC_UF1000,1000_QL80_.jpg",
+                "https://example.com/images/martin-d-28-back.jpg"
+            ],
+            "stock": 7,
+            "rating": 4.9
+        },
+        {
+            "id": "acc004",
+            "name": "Guitar Cable",
+            "category": "Accessory",
+            "price": 19.99,
+            "description": "A high-quality guitar cable suitable for connecting electric guitars to amplifiers or other audio equipment. This cable ensures minimal interference and maximum signal transfer, providing clear and crisp sound.",
+            "specifications": {
+                "length": "10 feet",
+                "connectors": "1/4 inch TS to 1/4 inch TS",
+                "shielding": "Braided copper shielding",
+                "conductor": "Oxygen-free copper"
+            },
+            "images": [
+                "https://m.media-amazon.com/images/I/71ToXJn-vxL._AC_UF894,1000_QL80_.jpg",
+                "https://example.com/images/yamaha-p125-back.jpg"
+            ],
+            "stock": 15,
+            "rating": 4.6
+        },
+        {
+            "id": "acc005",
+            "name": "Snark SN5X Clip-On Tuner",
+            "category": "Guitar Tuner",
+            "price": 10.99,
+            "description": "The Snark SN5X Clip-On Tuner is a popular choice for guitarists due to its accuracy, ease of use, and affordability. It features a bright and colorful display that rotates 360 degrees for easy viewing. The tuner clips securely onto the headstock of the guitar and detects vibrations for precise tuning. Suitable for acoustic, electric, and bass guitars.",
+            "specifications": {
+                "tunerType": "Clip-On",
+                "display": "Full-color LCD",
+                "tuningModes": [
+                    "Chromatic",
+                    "Guitar",
+                    "Bass"
+                ],
+                "calibrationRange": "415-466 Hz"
+            },
+            "images": [
+                "https://cdn.mos.cms.futurecdn.net/WESArbyAtYnsMHu5zpKNJ3.jpg",
+                "https://example.com/images/roland-td17kvx-side.jpg"
+            ],
+            "stock": 8,
+            "rating": 4.7
+        },
+        {
+            "id": "acc006",
+            "name": "Sturdy A-Frame Guitar Stand",
+            "category": "Guitar Stand",
+            "price": 29.99,
+            "description": "The Sturdy A-Frame Guitar Stand is designed to securely hold your electric, acoustic, or bass guitars. Its durable construction and stable design make it a reliable choice for both stage and home use.",
+            "specifications": {
+                "material": "Steel",
+                "compatibility": "Fits most standard electric, acoustic, and bass guitars",
+                "dimensions": "Height: 18 inches, Width: 12 inches, Depth: 16 inches",
+                "features": [
+                    "A-frame design for stability",
+                    "Soft foam arms and backrest to protect your instrument's finish",
+                    "Foldable for easy storage and transportation"
+                ]
+            },
+            "images": [
+                "https://www.guitar.co.uk/media/catalog/product/cache/1/image/800x400/9df78eab33525d08d6e5fb8d27136e95/s/t/stagg_suvm-a100bk_ukulele_stand.jpg",
+                "https://example.com/images/korg-minilogue-back.jpg"
+            ],
+            "stock": 12,
+            "rating": 4.4
+        },
+        {
+            "id": "acc007",
+            "name": "Wall Mount for Electric Guitars",
+            "category": "Guitar Accessories",
+            "price": 29.99,
+            "description": "This wall mount is designed to securely hold electric guitars, such as the Fender Stratocaster, on your wall. It's made of durable materials and comes with all necessary mounting hardware.",
+            "specifications": {
+                "compatibleInstruments": [
+                    "Fender Stratocaster",
+                    "Electric Guitars"
+                ],
+                "material": "Steel",
+                "color": "Black",
+                "maximumWeightCapacity": "20 lbs"
+            },
+        "images": [
+            "https://m.media-amazon.com/images/I/71ibOcli42L._AC_UF894,1000_QL80_.jpg",
+            "https://example.com/images/buffet-crampon-r13-back.jpg"
+        ],
+        "stock": 6,
+        "rating": 4.9
+    },
+    {
+        "id": "acc008",
+        "name": "Boss DS-1 Distortion",
+        "category": "Distortion Pedal",
+        "price": 49.99,
+        "description": "The Boss DS-1 Distortion is a classic distortion pedal known for its gritty, aggressive tone. It's been a staple on pedalboards for decades, used by guitarists in various genres from rock to metal.",
+        "specifications": {
+            "type": "Analog",
+            "controls": [
+                "Level",
+                "Distortion",
+                "Tone"
+            ],
+            "power": "9V Battery or AC Adapter",
+            "dimensions": {
+                "width": "2.9 inches",
+                "depth": "5.1 inches",
+                "height": "2.3 inches"
+            }
+        },
+    "images": [
+        "https://i.redd.it/rokgmwcqr6l81.jpg",
+        "https://example.com/images/pearl-export-exx-side.jpg"
+    ],
+    "stock": 10,
+    "rating": 4.3
+},
+{
+    "id": "acc009",
+    "name": "D'Addario EXL110 Nickel Wound Electric Guitar Strings",
+    "category": "Guitar Strings",
+    "price": 5.99,
+    "description": "D'Addario EXL110 Nickel Wound Electric Guitar Strings are known for their bright tone and excellent intonation. These strings are popular among electric guitar players for their durability and consistent performance.",
+    "specifications": {
+        "material": "Nickel Wound",
+        "gauge": "Regular Light",
+        "number_of_strings": 6
+    },
+"images": [
+    "https://m.media-amazon.com/images/I/81tpa0OZiOL._AC_UF1000,1000_QL80_.jpg",
+    "https://example.com/images/mendini-flute-side.jpg"
+],
+"stock": 20,
+"rating": 4.1
+},
+{
+"id": "acc010",
+"name": "Guitar CAPOS",
+"category": "Guitar Accessory",
+"price": 15.99,
+"description": "Guitar CAPOS are essential accessories for guitarists, allowing them to change the pitch of the strings without adjusting the tuning. They are commonly used to play songs in different keys or to achieve specific tonal effects.",
+"specifications": {
+    "material": "Aluminum alloy",
+    "compatibleInstruments": [
+        "Acoustic Guitar",
+        "Electric Guitar"
+    ],
+    "features": [
+        "Quick-release mechanism",
+        "Silicone padding for protection"
+    ],
+    "colorOptions": [
+        "Silver",
+        "Black"
+    ]
+},
+"images": [
+"https://assets-global.website-files.com/609da2a5c152cbf24cd6450f/60d39d5ff83ff9048f7bf906_colorful%20guitar%20capos.jpg",
+"https://example.com/images/squier-telecaster-back.jpg"
+],
+"stock": 15,
+"rating": 4.2
+},
+{
+"id": "acc011",
+"name": "D'Addario Humidipak",
+"category": "Guitar Humidifier",
+"price": 19.99,
+"description": "The D'Addario Humidipak is a patented, two-way humidity control system that maintains the ideal humidity level for your instrument. It prevents warping, cracks, and other damage caused by insufficient or excessive humidity. The system automatically releases or absorbs moisture as needed, ensuring your guitar stays in optimal condition.",
+"specifications": {
+"type": "Humidipak System",
+"humidityRange": "40% - 50%",
+"usage": "Place it inside the guitar case or soundhole to maintain proper humidity levels.",
+"lifespan": "2-6 months depending on use and conditions."
+},
+"images": [
+"https://m.media-amazon.com/images/I/41skXCwblvL._AC_UF894,1000_QL80_.jpg",
+"https://example.com/images/yamaha-yas-280-back.jpg"
+],
+"stock": 9,
+"rating": 4.7
+},
+{
+"id": "acc012",
+"name": "Guitar Polish",
+"category": "Guitar Maintenance",
+"price": 9.99,
+"description": "Keep your guitar looking shiny and new with this guitar polish. Formulated specifically for use on guitars, it cleans, polishes, and protects the finish, ensuring your instrument looks and plays its best.",
+"specifications": {
+  "volume": "8 oz",
+  "application": "Spray-on",
+  "suitableFor": ["Electric Guitars", "Acoustic Guitars"],
+  "ingredients": ["Water", "Carnauba Wax", "Isopropyl Alcohol", "Mineral Oil"]
+},
+"images": [
+"https://m.media-amazon.com/images/I/71AlOxc3+oL._AC_UF894,1000_QL80_.jpg",
+"https://example.com/images/akai-mpk-mini-back.jpg"
+],
+"stock": 25,
+"rating": 4.6
+}
+    ]
+}
+
+

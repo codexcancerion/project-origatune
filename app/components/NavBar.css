@@ -1,0 +1,140 @@
+.nav {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+  height: 5vh;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 5vh;
+}
+
+.logo {
+  height: auto;
+  max-width: 80px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  font-size: small;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 500ms;
+  cursor: pointer;
+  height: 20px !important;
+}
+.link:hover {
+  /* background-color: aliceblue; */
+  border: 1px solid #ccc;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+  text-decoration: none;
+  margin-right: 20px; /* Add margin to separate from other links */
+}
+.link.search-container:hover {
+  /* background-color: aliceblue; */
+  border: none;
+}
+
+#searchInput {
+  flex: 1; /* Allow the input to take remaining space */
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  height: 36.5px !important;
+}
+
+#searchBtn {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  height: 40px !important;
+  color: rgb(82, 82, 82);
+}
+
+
+.menu-button {
+  display: none;
+  background: none;
+  cursor: pointer;
+  margin-right: 30px;
+  color: rgb(82, 82, 82);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-button {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 30px 10px;
+  }
+  .link{
+    margin: 10px 20px !important;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav {
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .link, .search-container {
+    margin: 0 10px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+}

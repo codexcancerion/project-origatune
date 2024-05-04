@@ -1,0 +1,60 @@
+.regrouper.account {
+    display: flex;
+    justify-content: center;
+}
+.account-container {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.account-container .profile-picture-holder {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    background-color: aqua;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+.picture-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-container .profile-picture {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.personal-info-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+}
+.personal-info-container table{
+    width: 100%;
+}
+.personal-info-container table .label{
+    width: 40%;
+}
+.personal-info-container table .data{
+    text-wrap: wrap;
+}
+
+.logout-btn {
+    margin: 20px 0;
+    width: 200px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+}

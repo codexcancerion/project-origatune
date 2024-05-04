@@ -1,0 +1,75 @@
+{
+  "developers": [
+    {
+      "id": "dev001",
+      "name": "Melbert P. Marafo",
+      "age": 19,
+      "gender": "Male",
+      "location": "Baguio City",
+      "facebook": "https://www.facebook.com/melbert.marafo",
+      "contactNumber": "09351355782",
+      "email": "melbertmarafo2022@gmail.com"
+    },
+    {
+      "id": "dev002",
+      "name": "Brein Palay-en",
+      "age": 22,
+      "gender": "Male",
+      "location": "La Trinidad, Benguet",
+      "facebook": "https://www.facebook.com/kito.nino.5",
+      "contactNumber": "09215853857",
+      "email": "breinpalayen@gmail.com"
+    },
+    {
+      "id": "dev003",
+      "name": "Linson Ganado",
+      "age": 22,
+      "gender": "Male",
+      "location": "La Trinidad, Benguet",
+      "facebook": "https://www.facebook.com/in.on.37",
+      "contactNumber": "09812465319",
+      "email": "ganadolinson96@gmail.com"
+    },
+    {
+      "id": "dev004",
+      "name": "Herbert Alem B. Acoking",
+      "age": 19,
+      "gender": "Male",
+      "location": "La Trinidad, Benguet",
+      "facebook": "https://www.facebook.com/herbert.allem/",
+      "contactNumber": "09156149231",
+      "email": "herbertacoking123@gmail.com"
+    },
+    {
+      "id": "dev005",
+      "name": "Jaylon Edwas",
+      "age": 21,
+      "gender": "Male",
+      "location": "La Trinidad, Benguet",
+      "facebook": "https://www.facebook.com/jaylon.edwas",
+      "contactNumber": "09636848918",
+      "email": "jaylonedwas77@gmail.com"
+    },
+    {
+      "id": "dev006",
+      "name": "Jeric M. Colsido",
+      "age": 21,
+      "gender": "Male",
+      "location": "La Trinidad, Benguet",
+      "facebook": "https://www.facebook.com/charla.besties",
+      "contactNumber": "09634803997",
+      "email": "jericmecengcolsido@gmail.com"
+    },
+    {
+      "id": "dev007",
+      "name": "Genaro P. Anasan",
+      "age": 20,
+      "gender": "Male",
+      "location": "La Trinidad, Benguet",
+      "facebook": "https://www.facebook.com/genaro.anasan.7",
+      "contactNumber": "09076573255",
+      "email": "gpcycofer@gmail.com"
+    }
+  ]  
+}
+  

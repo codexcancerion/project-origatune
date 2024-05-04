@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    padding: 5vh 0;
+}
+.footer-container {
+    width: 90%;
+}
+
+.logo-zone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-zone .logo{
+    max-width: 150px !important;
+}
+.logo-zone p{
+    font-weight: bold;
+}
+
+.ends {
+    display: flex;
+    justify-content: end;
+}
+
+.c {
+    height: 30px;
+    padding: 10px ;
+}

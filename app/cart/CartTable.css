@@ -1,0 +1,37 @@
+.control-group {
+    margin: 10px;
+}
+.control {
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+    padding: 0;
+    transition: .5s;
+}
+.control div {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #ccc;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    flex-direction: row;
+}
+.control:hover {
+    border: 1px solid rgb(38, 38, 38);
+}
+.control.delete:hover {
+    border: 1px solid rgb(38, 38, 38);
+    color: rgb(180, 21, 7);
+}

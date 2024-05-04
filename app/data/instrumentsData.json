@@ -1,0 +1,240 @@
+{
+    "instruments": [
+      {
+        "id": "ins001",
+        "name": "Fender Stratocaster",
+        "category": "Electric Guitar",
+        "price": 699.99,
+        "description": "The Fender Stratocaster is a model of electric guitar designed in 1954 by Leo Fender, Bill Carson, George Fullerton, and Freddie Tavares. The Stratocaster is a versatile guitar, usable for most styles of music and has been used by many famous musicians over the decades.",
+        "specifications": {
+          "bodyType": "Solid",
+          "neckShape": "C shape",
+          "scaleLength": "25.5 inches",
+          "fretboardMaterial": "Maple",
+          "numberOfFrets": 22
+        },
+        "images": [
+          "https://example.com/images/fender-stratocaster-front.jpg",
+          "https://example.com/images/fender-stratocaster-back.jpg"
+        ],
+        "stock": 10,
+        "rating": 4.5
+      },
+      {
+        "id": "ins002",
+        "name": "Gibson Les Paul Standard",
+        "category": "Electric Guitar",
+        "price": 2499.99,
+        "description": "The Gibson Les Paul Standard delivers the signature sound of Gibson's electric guitars with a classic look. Known for its sustain and versatility, it has been a favorite among musicians for generations.",
+        "specifications": {
+          "bodyType": "Solid",
+          "neckShape": "Slim taper",
+          "scaleLength": "24.75 inches",
+          "fretboardMaterial": "Rosewood",
+          "numberOfFrets": 22
+        },
+        "images": [
+          "https://cdn.long-mcquade.com/files/136360/lg_582214ee496d022bbf52c127177ab18d.jpg",
+          "https://example.com/images/gibson-les-paul-back.jpg"
+        ],
+        "stock": 5,
+        "rating": 4.8
+      },
+      {
+        "id": "ins003",
+        "name": "Martin D-28",
+        "category": "Acoustic Guitar",
+        "price": 2999.99,
+        "description": "Martin D-28 is an iconic acoustic guitar that offers a deep and resonant sound. Known for its superb craftsmanship and rich tones, this model has been a popular choice among professional musicians for decades.",
+        "specifications": {
+          "bodyType": "Dreadnought",
+          "neckShape": "Standard taper",
+          "scaleLength": "25.4 inches",
+          "fretboardMaterial": "Ebony",
+          "numberOfFrets": 20
+        },
+        "images": [
+          "https://cdn.long-mcquade.com/files/5247/md_f4f1a12f35a950927cf58446f0f0e0b1.jpg",
+          "https://example.com/images/martin-d-28-back.jpg"
+        ],
+        "stock": 7,
+        "rating": 4.9
+      },
+      {
+        "id": "ins004",
+        "name": "Yamaha P-125 Digital Piano",
+        "category": "Keyboards",
+        "price": 649.99,
+        "description": "The Yamaha P-125 is a compact digital piano that combines incredible piano performance with a user-friendly minimalistic design. Easily portable and extremely accessible, this instrument allows you to experience the joy of playing the piano on your terms.",
+        "specifications": {
+          "keyboard": "88 keys",
+          "type": "Graded hammer standard",
+          "voices": "24",
+          "polyphony": "192",
+          "weight": "11.8 kg"
+        },
+        "images": [
+          "https://ph-test-11.slatic.net/p/adfc51ee3e558b4fab5629364f2b5b64.jpg",
+          "https://example.com/images/yamaha-p125-back.jpg"
+        ],
+        "stock": 15,
+        "rating": 4.6
+      },
+      {
+        "id": "ins005",
+        "name": "Roland TD-17KVX V-Drums",
+        "category": "Percussion",
+        "price": 1799.99,
+        "description": "The Roland TD-17KVX is the top-of-the-line model in the TD-17 series, offering the playability and sound of high-end V-Drums in an affordable kit. It's perfect for practicing drummers and those who want a reliable electronic kit for home recordings.",
+        "specifications": {
+          "kitConfiguration": "Snare, 3 Toms, Hi-Hat, 2 Crashes, Ride, Kick Pad",
+          "module": "TD-17 Drum Sound Module",
+          "connectivity": "MIDI, USB",
+          "includedAccessories": "Drum stand, AC adapter, Sound module mount"
+        },
+        "images": [
+          "https://cdn.mos.cms.futurecdn.net/ZaE2xhQ879J4mo9qz8Bamh-1200-80.jpg",
+          "https://example.com/images/roland-td17kvx-side.jpg"
+        ],
+        "stock": 8,
+        "rating": 4.7
+      },
+      {
+        "id": "ins006",
+        "name": "Korg Minilogue",
+        "category": "Synthesizers",
+        "price": 499.99,
+        "description": "The Korg Minilogue brings a new level of synthesis to the table with its unique sound structure and its 16-step polyphonic sequencer. It’s perfect for musicians who need a versatile synthesizer for both performance and composition.",
+        "specifications": {
+          "keyboard": "37-keys",
+          "type": "Analog synthesis",
+          "polyphony": "4 voices",
+          "controls": "Pitch bend, modulation wheel",
+          "connectivity": "MIDI, USB, Sync In/Out"
+        },
+        "images": [
+          "https://www.stars-music.com/medias/korg/minilogue-hd-10-98039.jpg",
+          "https://example.com/images/korg-minilogue-back.jpg"
+        ],
+        "stock": 12,
+        "rating": 4.4
+      },
+      {
+        "id": "ins007",
+        "name": "Buffet Crampon R13 Clarinet",
+        "category": "Woodwind Instruments",
+        "price": 3550.00,
+        "description": "Known for its rich tone and professional quality, the Buffet Crampon R13 Clarinet has been a favorite among clarinetists worldwide. This model features an impeccable response and flexibility, making it a staple in symphony orchestras.",
+        "specifications": {
+          "material": "Grenadilla wood",
+          "keys": "Silver-plated",
+          "tuning": "Bb",
+          "includedAccessories": "Case, ligature, mouthpiece, cork grease"
+        },
+        "images": [
+          "https://www.band-world.com//image/cache/catalog/instruments/bb%20clarinet/Divine-800x600.jpg",
+          "https://example.com/images/buffet-crampon-r13-back.jpg"
+        ],
+        "stock": 6,
+        "rating": 4.9
+      },
+      {
+        "id": "ins008",
+        "name": "Pearl Export EXX",
+        "category": "Drum Kits",
+        "price": 749.99,
+        "description": "The Pearl Export EXX drum kit sets the standard for entry-level drum sets with its high-quality shells, sturdy hardware, and powerful sound. It's an excellent choice for new drummers looking for a reliable first kit.",
+        "specifications": {
+          "shellMaterial": "Poplar/Asian mahogany",
+          "hardware": "Chrome",
+          "configuration": "5-piece set with snare, kick, toms, and cymbals",
+          "finish": "Smoky Chrome"
+        },
+        "images": [
+          "https://cdn.mos.cms.futurecdn.net/56f1ec9b3d8115bf5548016475bd9f7d-1200-80.jpg",
+          "https://example.com/images/pearl-export-exx-side.jpg"
+        ],
+        "stock": 10,
+        "rating": 4.3
+      },
+      {
+        "id": "ins009",
+        "name": "Mendini by Cecilio Flute",
+        "category": "Woodwind Instruments",
+        "price": 119.99,
+        "description": "The Mendini by Cecilio Flute is an excellent choice for students and beginners. Featuring a durable nickel-plated body and a split E mechanism, this flute is designed to be easy to play and maintain.",
+        "specifications": {
+          "material": "Nickel-plated",
+          "keys": "Closed hole",
+          "tuning": "C",
+          "includedAccessories": "Hard case, cleaning rod, cloth, and gloves"
+        },
+        "images": [
+          "https://i.ebayimg.com/images/g/gCMAAOSwjftk1ujI/s-l1200.jpg",
+          "https://example.com/images/mendini-flute-side.jpg"
+        ],
+        "stock": 20,
+        "rating": 4.1
+      },
+      {
+        "id": "ins010",
+        "name": "Squier by Fender Affinity Telecaster",
+        "category": "Electric Guitar",
+        "price": 229.99,
+        "description": "The Squier by Fender Affinity Telecaster is known for its sharp tone and smooth playability. Ideal for beginners and intermediate players, it offers the quality and style of a Fender at an affordable price.",
+        "specifications": {
+          "bodyType": "Solid",
+          "neckShape": "C shape",
+          "scaleLength": "25.5 inches",
+          "fretboardMaterial": "Maple",
+          "numberOfFrets": 21
+        },
+        "images": [
+          "https://backend.promusictools.com/media/catalog/product/cache/0537bf5a48f21bc0a0f67664265b8a05/f/e/fender-squier-affinity-series-telecaster-lrl-white-pickguard-olympic-white.jpeg",
+          "https://example.com/images/squier-telecaster-back.jpg"
+        ],
+        "stock": 15,
+        "rating": 4.2
+      },
+      {
+        "id": "ins011",
+        "name": "Yamaha YAS-280 Saxophone",
+        "category": "Woodwind Instruments",
+        "price": 1033.99,
+        "description": "The Yamaha YAS-280 Saxophone is designed with beginners and advanced students in mind, providing a reliable and consistent performance. Its responsive playability and accurate intonation make it an excellent choice for learning and progression.",
+        "specifications": {
+          "material": "Brass",
+          "keys": "Gold lacquered",
+          "tuning": "Eb",
+          "includedAccessories": "Case, neck strap, mouthpiece, cork grease, cleaning cloth"
+        },
+        "images": [
+          "https://cafesaxophone.com/attachments/yamaha-yas280-1-jpg.4544/",
+          "https://example.com/images/yamaha-yas-280-back.jpg"
+        ],
+        "stock": 9,
+        "rating": 4.7
+      },
+      {
+        "id": "ins012",
+        "name": "Akai Professional MPK Mini MK3",
+        "category": "Keyboards",
+        "price": 119.00,
+        "description": "The Akai Professional MPK Mini MK3 is a compact, yet full-featured MIDI keyboard controller designed for musicians on the go. It includes an array of pads, knobs, and keys to unleash your creativity anywhere.",
+        "specifications": {
+          "keyboard": "25 mini keys",
+          "type": "Synth action",
+          "pads": "8 backlit velocity-sensitive",
+          "controls": "8 assignable knobs",
+          "connectivity": "USB-MIDI"
+        },
+        "images": [
+          "https://laz-img-sg.alicdn.com/p/d5a0fb73198a0d01e861f914b7f0fbc0.jpg",
+          "https://example.com/images/akai-mpk-mini-back.jpg"
+        ],
+        "stock": 25,
+        "rating": 4.6
+      }
+    ]
+  }
+  

@@ -1,0 +1,16 @@
+.developers-group-holder {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.developers-group-image {
+    width: 100%;
+    height: auto;
+}
+.profile-link {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+}
+
+
