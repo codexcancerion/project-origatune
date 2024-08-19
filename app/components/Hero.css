@@ -2,31 +2,51 @@
     width: 100%;
     height: 90vh;
     background-color: aliceblue;
+    /* background-image: url('/img/hero-bg.jpg');
+    background-size: cover; */
 }
 .hero {
     background: aliceblue;
     /* padding: spacing(6); */
-    text-align: center;    
+    /* text-align: center;     */
     width: 100%;
-    height: 90vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    align-content: flex-start;
+    /* justify-content: center; */
+    padding: 10vh 10vw;
   }
   .title {
     /* margin-bottom: theme.spacing(3); */
     font-weight: bold;
     font-size: 50px;
+    color: rgb(39, 39, 39);
   }
-  button {
+  .title .color {    
+    background-image: linear-gradient(to right, #ff8000, #ff0000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s ease-in-out infinite alternate;
+    font-size: 60px;
+  }
+  .subtitle {
+    /* margin-bottom: theme.spacing(3); */
+    /* font-weight: ; */
+    font-size: 30px;
+  }
+  .hero button {
     /* margin-top: theme.spacing(2); */
-    max-width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+    max-width: 300px;
     justify-self: center;
-    align-self: center;
-    height: 40px;
-    padding: 20px;
-    background-color: rgb(16, 139, 255);
+    align-self: flex-start;
+    height: 60px;
+    padding: 30px;
+    /* background-color: rgb(255, 231, 208); */
+    background-image: linear-gradient(to right, #ff8000, #ff0000);
     border: 0;
     display: flex;
     align-items: center;
@@ -34,6 +54,25 @@
     border-radius: 5px;
     transition: .5s;
   }
-  button:hover {
-    background-color: rgb(3, 102, 196);
+  .hero button:hover {
+    /* background-color: rgb(255, 136, 16); */
+    background-image: linear-gradient(to right, #ff0000, #ff8000);
+    color: white;
   }
+
+  .hero-img-holder {
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img {
+    height: 80vh;
+  }
+
+  
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
+
+}

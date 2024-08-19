@@ -9,7 +9,7 @@
 }
 .section-holder {
     margin-bottom: 20px !important;
-    width: 80vw;
+    width: 80%;
     display: flex;
     justify-self: center;
     flex-direction: column;
@@ -17,6 +17,9 @@
     background-color: white;
     border-radius: 20px;
     padding: 3vh 5vw;
+}
+.section-holder.full-section {
+    min-height: 60vh !important;
 }
 .regrouper {
     padding: 30px 0;

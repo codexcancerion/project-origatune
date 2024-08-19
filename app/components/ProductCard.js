@@ -10,14 +10,20 @@ import { useCart } from '../../context/CartContext';
 // material ui
 import Rating from '@mui/material/Rating';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Box, Alert } from "@mui/material";
+import CheckIcon from '@mui/icons-material/Check';
+import { useUser } from "@/context/UserContext";
 
 
 const ProductCard = ({ product }) => {  
+    const {userLoggedIn} = useUser();
     const { cartButtonHovered, setCartButtonHovered } = useState(false); 
     const { addItem } = useCart();
+    const [addedToCart, setAddedToCart] = useState(false); 
 
     const handleAddToCart = () => {
         addItem(product);
+        setAddedToCart(true);
     };
     const rating = product.rating;
     // Ensure the file type is same to all images
@@ -45,8 +51,20 @@ const ProductCard = ({ product }) => {
             <p className="product-price">Rated { product.rating}</p>
         </div>
         {/* <p className="product-description">{product.description}</p>             */}
+        
+        <Box hidden={!addedToCart} marginX={1}>
+            <Alert severity="success">Added to cart</Alert>
+        </Box>
         <div className="btn-holder">
-            <button className="btn btn-add-to-cart"  onClick={handleAddToCart}>Add to Cart</button>
+            {userLoggedIn ? (
+                <button className="btn btn-add-to-cart"  onClick={handleAddToCart}>Add to Cart</button>
+            ) : (
+                <Link href={`/user/login/`}>
+                    <button className="btn btn-add-to-cart">Login to add to cart</button>
+                </Link>
+            )}
+                
+                
                 <Link href={`/shop/product/${product.id}`}>
                     <button className="btn btn-view-details">View Details</button>
                 </Link>

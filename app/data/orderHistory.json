@@ -1,39 +1,4 @@
 {
-    "orders": [
-      {
-        "orderId": "ORD001",
-        "userId": "USR123",
-        "date": "2024-05-05",
-        "time": "10:30:00",        
-        "productId": "acc001",
-        "quantity": 2,
-        "shippingAddress": {
-          "street": "123 Main St",
-          "city": "Anytown",
-          "state": "CA",
-          "zipCode": "12345",
-          "country": "USA"
-        },
-        "paymentMethod": "PayPal",
-        "totalPrice": 99.98
-      },
-      {
-        "orderId": "ORD002",
-        "userId": "USR456",
-        "date": "2024-05-06",
-        "time": "14:45:00",   
-        "productId": "ins009",
-        "quantity": 1,
-        "shippingAddress": {
-          "street": "456 Elm St",
-          "city": "Othertown",
-          "state": "NY",
-          "zipCode": "54321",
-          "country": "USA"
-        },
-        "paymentMethod": "GCash",
-        "totalPrice": 239.98
-      }
-    ]
+    "orders": []
   }
   

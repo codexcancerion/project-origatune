@@ -6,7 +6,8 @@ import instrumentsData from "../data/instrumentsData.json";
 import accessoriesData from "../data/accessoriesData.json";
 // material components
 import Box from '@mui/material/Box';
-import { Grid } from "@mui/material";
+import { Grid, Breadcrumbs } from "@mui/material";
+import Link from "next/link";
 // custom styles
 import './page.css';
 
@@ -17,6 +18,21 @@ export default function Page() {
       <div className="page-container">
         <div className="section-holder">
           <h1>SHOP</h1>
+          <div role="presentation">
+            <Breadcrumbs aria-label="breadcrumb">
+              <Link underline="hover" color="inherit" href="/">
+                Home
+              </Link>
+              <Link
+                underline="hover"
+                color="text.primary"
+                href="/shop/"
+                aria-current="page"
+              >
+                Shop
+              </Link>
+            </Breadcrumbs>
+          </div>
         </div>
         
 

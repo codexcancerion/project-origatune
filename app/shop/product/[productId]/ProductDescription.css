@@ -68,3 +68,34 @@
 .product-description .btn-holder {
     padding: 10px;
 }
+
+
+.product-description .btn-holder {
+    padding: 10px;
+}
+
+.product-description .btn {
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.product-description .btn-add-to-cart {
+    background: #e6e6e6;
+    color: rgb(29, 29, 29);
+}
+
+.product-description .btn-add-to-cart:hover {
+    background: #0056b3;
+    color: white;
+}
+.product-description .btn-view-details:hover {
+    background: #0056b3;
+}

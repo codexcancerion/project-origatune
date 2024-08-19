@@ -1,0 +1,19 @@
+.section-holder.no-bg {
+    background-color: none !important;
+}
+
+.category-holder {
+    margin-bottom: 20px !important;
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3vh 5vw;
+
+}
+.category-section {
+    width: 100%;
+}

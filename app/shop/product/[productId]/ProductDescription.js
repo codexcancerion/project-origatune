@@ -1,17 +1,22 @@
 import React from "react";
 import Image from 'next/image';
 import Rating from '@mui/material/Rating';
-import { Grid } from "@mui/material";
+import Link from "next/link";
+import { Grid, Box, Alert } from "@mui/material";
 import { useCart } from '../../../../context/CartContext';
-import AddToCart from "@/app/components/AddToCart";
+import { useUser } from "@/context/UserContext";
+import { useState } from "react";
 import './ProductDescription.css';
 
 
 const ProductDescription = ({ product }) => {  
     const { addItem } = useCart();
+    const [addedToCart, setAddedToCart] = useState(false); 
+    const {userLoggedIn} = useUser();
 
     const handleAddToCart = () => {
         addItem(product);
+        setAddedToCart(true);
     };
     var name = product.name;
     var category = product.category;
@@ -34,7 +39,17 @@ const ProductDescription = ({ product }) => {
                     <p className="price">$ {price}</p>
                 </div>
                 <div className="btn-holder">
-                <AddToCart product={product}></AddToCart>
+
+                {userLoggedIn ? (
+                        <button className="btn btn-add-to-cart"  onClick={handleAddToCart}>Add to Cart</button>
+                    ) : (
+                        <Link href={`/user/login/`}>
+                            <button className="btn btn-add-to-cart">Login to add to cart</button>
+                        </Link>
+                    )}
+                <Box hidden={!addedToCart} marginX={1}>
+                    <Alert severity="success">Added to cart</Alert>
+                </Box>
             </div>
             </Grid>
             <Grid item xs={6}>

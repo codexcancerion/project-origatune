@@ -7,6 +7,8 @@ import accessoriesData from "../../../data/accessoriesData.json";
 // material components
 // custom styles
 import './page.css';
+import { Breadcrumbs } from "@mui/material";
+import Link from "next/link";
 
 
 export default function Page({ params }) {
@@ -43,6 +45,28 @@ export default function Page({ params }) {
       <div className="page-container">
         <div className="section-holder">
           <h1>{product.category}</h1>
+          <div role="presentation">
+            <Breadcrumbs aria-label="breadcrumb">
+              <Link underline="hover" color="inherit" href="/">
+                Home
+              </Link>
+              <Link
+                underline="hover"
+                color="text.primary"
+                href="/shop/"
+              >
+                Shop
+              </Link>
+              <Link
+                underline="hover"
+                color="text.primary"
+                href={"/shop/product/"+productId}
+                aria-current="page"
+              >
+                {product.name}
+              </Link>
+            </Breadcrumbs>
+          </div>
         </div>        
 
         <div className="section-holder">

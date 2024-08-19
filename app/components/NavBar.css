@@ -38,10 +38,26 @@
   transition: 500ms;
   cursor: pointer;
   height: 20px !important;
+  border: 1px solid grey;
+  font-weight: bold;
+}
+.link.no-border {  
+  border: none !important;
+}
+.link.active {  
+  background-image: linear-gradient(to right, #ff8000, #ff0000) !important;
+  border: none !important;
+  color: white;
+}
+.link.active:hover {  
+  background-image: none !important;
+  background-color: #343434 !important;
+  color: white;
 }
 .link:hover {
   /* background-color: aliceblue; */
-  border: 1px solid #ccc;
+  background-color: #343434;
+  color: white;
 }
 
 .search-container {

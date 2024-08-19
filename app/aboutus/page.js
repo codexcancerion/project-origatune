@@ -3,7 +3,7 @@ import ProfileCard from "../components/ProfileCard";
 // data json
 import developers from "../data/developers.json";
 // material components
-import { Grid, Link } from "@mui/material";
+import { Grid, Link, Breadcrumbs } from "@mui/material";
 import Image from 'next/image';
 // custom styles
 import './page.css';
@@ -15,6 +15,21 @@ export default function Page() {
       <div className="page-container">
         <div className="section-holder">
           <h1>ABOUT US</h1>
+          <div role="presentation">
+            <Breadcrumbs aria-label="breadcrumb">
+              <Link underline="hover" color="inherit" href="/">
+                Home
+              </Link>
+              <Link
+                underline="hover"
+                color="text.primary"
+                href="/aboutus/"
+                aria-current="page"
+              >
+                About Us
+              </Link>
+            </Breadcrumbs>
+          </div>
         </div>
 
         <div className="section-holder">
